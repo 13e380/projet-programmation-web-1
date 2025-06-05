@@ -6,6 +6,65 @@
     font-family: "Figtree", sans-serif;
 }
 
+ nav {
+    position: fixed;
+    background-color: #131825;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+ }
+
+ nav .menu {
+    font-family: giga sans;
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: -10px 20px;
+ }
+
+ nav .menu .logo a {
+    position: relative;
+    top: 3px;
+    right: 100px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: giga sans extrabold;
+ }
+
+ .menu ul {
+    display: inline;
+    list-style: none;
+ }
+ 
+ .menu ul li:first-child {
+    position: absolute;
+    top: 20px;
+    right: 130px;
+ }
+
+ .menu ul li:last-child {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+ }
+
+ .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+ }
+ .menu ul li a:hover {
+    background-color: #f5f5f5;
+    color: #131825;
+    font-weight: bolder;
+ }
 
 body {
     display: grid;
@@ -28,6 +87,50 @@ body {
     color: #ffffffd8;
     padding-left: 25px;
     margin: 42% auto -42%;
+}
+
+.buton02 .btn {
+    display: block;
+    width: 120px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top: 90px;
+    left: 40%;
+    font-family: giga sans;
+    background-color: #e2e2e2;
+    color: #192233;
+
+}
+
+.buton02 .btn:hover {
+    background-color: #fff0c0;
+    color: #192233;
+    font-weight: 1000;
+    transition: all 0.5s ease-in-out;
+}
+
+.buton002 .btn {
+    display: block;
+    width: 120px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top: 69px;
+    left: 51%;
+    font-family: giga sans;
+    background-color: #e2e2e2;
+    color: #192233;
+
+}
+
+.buton002 .btn:hover {
+    background-color: #fff0c0;
+    color: #192233;
+    font-weight: 1000;
+    transition: all 0.5s ease-in-out;
 }
 
 .image1 {
