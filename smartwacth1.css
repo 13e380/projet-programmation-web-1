@@ -7,7 +7,6 @@
 }
 
 body {
-    padding-left: 2%;
     background: radial-gradient(circle at 50% 50%, #192233 20%, #000);
     min-height: 100vh;
     display: flex;
